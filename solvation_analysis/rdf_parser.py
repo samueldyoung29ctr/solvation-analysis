@@ -15,7 +15,8 @@ from scipy.interpolate import UnivariateSpline
 import scipy
 import matplotlib.pyplot as plt
 import warnings
-from scipy.signal import find_peaks, gaussian
+from scipy.signal import find_peaks
+from scipy.signal.windows import gaussian
 
 from solvation_analysis._column_names import *
 
